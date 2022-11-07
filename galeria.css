@@ -1,0 +1,39 @@
+* {
+	font-family: 'Open Sans';
+	color: #ffffff;
+	background-color: #777777;
+}
+.sticky {
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	background-color: #660000;
+	padding: 50px;
+	font-family: 'Abril Fatface';
+	font-size: 48px;
+	height:10vw;
+	width: 100vw;
+	font-style: normal;
+    font-weight: 400;
+	line-height: 10vh;
+}
+	
+	
+a:link {
+    text-decoration: none;
+	color: #ffffff;
+}
+a:visited {
+    text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+	color: #ff8080;
+}
+a:active {
+	text-decoration: none;
+    color: #ff33ff;
+}
+
+/*//////////////////////////////////////////////////////////*/
