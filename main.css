@@ -18,7 +18,6 @@ h1 {
 	font-size: 64px;
 	
 }
-
 .e1{
 	font-family: 'Open Sans';
 	font-size: 16px;
@@ -53,6 +52,7 @@ h1 {
 	width: 50vw;
 	padding: 0px;
 	
+	
 }
 .b1 {
 	background-color: #f0f0f0;
@@ -60,10 +60,11 @@ h1 {
 	height: 50vh;
 	width: 50vw;
 	text-align:center;
-	font-size: 32px;
+	font-size: 48px;
 	font-weight: bold;
 	line-height: 50vh;
-	
+	background-image: url(nie_kasowac1.jpg);
+	color: #ffffff;
 }
 .b2 {
 	background-color: #f0f0f0;
@@ -71,9 +72,20 @@ h1 {
 	height: 50vh;
 	width: 50vw;
 	text-align:center;
-	font-size: 32px;
+	font-size: 48px;
 	font-weight: bold;
 	line-height: 50vh;
+	background-image: url(nie_kasowac2.jpg);
+	color: #ffffff;
+	
+}
+.b1:hover {
+	filter: grayscale(100%);
+	color: #ffffff;
+}
+.b2:hover {
+	filter: grayscale(100%);
+	color: #ffffff;
 }
 .c1 {
 	grid-area: c1;
