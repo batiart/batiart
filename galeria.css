@@ -20,8 +20,11 @@
 }
 
 img {
-	width: 683px ;
-	height: 493px ;
+	margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+	border-radius: 6%;
+	border: 2px solid #323232;
   }	
 	
 a:link {
@@ -43,23 +46,25 @@ a:active {
 
 /*//////////////////////////////////////////////////////////*/
 .galeriaklasa {
-	margin: 0px;
-	padding: 0px;
-	object-fit: contain;
-	height: auto;
-	width: 100%
+	flex: 31%;
+	max-width: 33%;
+	padding: 0 8px;
 	
 
     
 }
 
 .container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
 
 }
-@media only screen and (max-width: 600px) {
+
+@media (max-width: 900px) {
 	.galeriaklasa {
-	  grid-template-columns: repeat(2, 1fr);
-	}
-  }
+		flex: 49%;
+		max-width: 46%;
+		padding: 0 8px;
+		}
+}

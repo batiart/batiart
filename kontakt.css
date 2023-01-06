@@ -1,12 +1,27 @@
 body {
-	background-image: url("nie_kasowac.jpg");
+	background-image: url("nie_kasowac.jpg") ;
 	color: #ffffff;
     font-size: 26px;
     font-family: 'Open Sans';
 	padding: 0px;
-    
+	margin: 0px;
     
 	}
+.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		background-color: #660000;
+		padding: 50px;
+		font-family: 'Abril Fatface';
+		font-size: 48px;
+		height:10vw;
+		width: 100vw;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 10vh;
+		margin: 30px;
+}
 h2 {
 	font-family: 'Abril Fatface';
 	text-align: center;
@@ -34,13 +49,14 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-	color: #ff00ff;
+	color: #ff8080;
 }
 
 a:active {
 	text-decoration: none;
-    color: #ffffff;
+    color: #ff00ff;
 }
 a {
     margin-left: 10vw;
+	font-size: 26px;
 }
